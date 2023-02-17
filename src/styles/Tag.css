@@ -1,0 +1,14 @@
+.tag-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    min-width: 115px;
+    border-radius: var(--border-radius-1);
+    font-size: var(--fs-tags);
+}
