@@ -17,7 +17,6 @@ import ErrorPage from "./pages/ErrorPage.jsx";
 const router = createBrowserRouter([
     {
         path: "/",
-        basename: process.env.PUBLIC_URL,
         element: <Root />,
         errorElement: <ErrorPage />,
         children: [
