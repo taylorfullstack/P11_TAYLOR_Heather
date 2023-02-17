@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "C:/Program Files/Git/P11_TAYLOR_Heather/static/css/main.1cbfee10.css",
-    "main.js": "C:/Program Files/Git/P11_TAYLOR_Heather/static/js/main.5dc88cbb.js",
+    "main.js": "C:/Program Files/Git/P11_TAYLOR_Heather/static/js/main.6397c42c.js",
     "static/js/787.0ce615c0.chunk.js": "C:/Program Files/Git/P11_TAYLOR_Heather/static/js/787.0ce615c0.chunk.js",
     "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg": "C:/Program Files/Git/P11_TAYLOR_Heather/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.161cc9194b8fa99b3ed4.jpg",
     "static/media/eric-muhr-P_XxsdVgtpQ-unsplash.jpg": "C:/Program Files/Git/P11_TAYLOR_Heather/static/media/eric-muhr-P_XxsdVgtpQ-unsplash.b37df1a62aeac2abe58d.jpg",
@@ -15,11 +15,11 @@
     "static/media/starFull.svg": "C:/Program Files/Git/P11_TAYLOR_Heather/static/media/starFull.325cf1d54d109e062e0d0468f6412f00.svg",
     "static/media/upArrow.svg": "C:/Program Files/Git/P11_TAYLOR_Heather/static/media/upArrow.9d7de17f0a69480e3802.svg",
     "main.1cbfee10.css.map": "C:/Program Files/Git/P11_TAYLOR_Heather/static/css/main.1cbfee10.css.map",
-    "main.5dc88cbb.js.map": "C:/Program Files/Git/P11_TAYLOR_Heather/static/js/main.5dc88cbb.js.map",
+    "main.6397c42c.js.map": "C:/Program Files/Git/P11_TAYLOR_Heather/static/js/main.6397c42c.js.map",
     "787.0ce615c0.chunk.js.map": "C:/Program Files/Git/P11_TAYLOR_Heather/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cbfee10.css",
-    "static/js/main.5dc88cbb.js"
+    "static/js/main.6397c42c.js"
   ]
 }
