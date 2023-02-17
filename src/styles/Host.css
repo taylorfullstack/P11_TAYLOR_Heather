@@ -1,0 +1,18 @@
+.host {
+    display: flex;
+    gap: 10.5px;    /*0.6563rem*/
+}
+
+.host-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    font-size: var(--fs-paragraph);
+}
+
+.host-picture {
+    height: var(--size-host);
+    width: var(--size-host);
+    border-radius: 50%;
+}
