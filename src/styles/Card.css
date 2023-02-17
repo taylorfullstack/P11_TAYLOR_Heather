@@ -1,0 +1,69 @@
+.card-gallery {
+    --card-height: clamp(255px, 340px, 340px);
+    --card-width: clamp(335px, 340px, 340px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
+    place-items: center;
+    gap: clamp(.75rem, 1.5rem, 3.125rem);
+    padding-block: 2rem;
+    padding-inline: clamp(1rem, 1.5rem, 2rem);
+    background-color: var(--color-gray-darker);
+    border-radius: var(--border-radius-2);
+}
+.card {
+    display: grid;
+    position: relative;
+    height: var(--card-height);
+    width: var(--card-width);
+    border-radius: var(--border-radius-1);
+}
+
+.card::after {
+    content: "";
+    height: var(--card-height);
+    width: var(--card-width);
+    border-radius: var(--border-radius-1);
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+    background-image: var(--linear-gradient-card);
+}
+
+.card > img {
+    height: calc(var(--card-height) * .75);
+    width: var(--card-width);
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card > h2 {
+    height: calc(var(--card-height) * .25);
+    width: var(--card-width);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;  /* 1.25rem */
+    font-size: 18px; /* 1.125rem */
+    z-index: 2;
+}
+
+@container root (width < 768px) {
+    .card-section {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        padding-inline: clamp(1rem, 1.5rem, 1.5rem);
+    }
+    .card {
+        --card-height: 255px;
+        --card-width: 335px;
+    }
+    .card > img {
+        height: calc(var(--card-height) * .75);
+        width: var(--card-width);
+    }
+    .card > h2 {
+        height: calc(var(--card-height) * .25);
+        width: var(--card-width);
+        padding: 20px;  /* 1.25rem */
+        font-size: 18px; /* 1.125rem */
+    }
+}
