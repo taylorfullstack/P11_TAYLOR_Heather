@@ -1,0 +1,57 @@
+
+.collapse {
+    flex: 1;
+}
+
+.logement-details {
+    font-size: var(--fs-paragraph);
+}
+
+.logement-summary {
+    font-size: var(--fs-subtitle-0);
+}
+
+.values-summmary {
+    font-size: var(--fs-subtitle-2);
+}
+
+.values-details {
+    font-size: var(--fs-nav-links);
+}
+
+.details[open] {
+    height: 100%;
+    border-radius: 0 0 var(--border-radius-1) var(--border-radius-1);
+    background-color: var(--color-gray);
+}
+
+.details[open] .summary-icon {
+    width: 28px;
+    height: 17px;
+    background-image: url("../assets/upArrow.svg");
+}
+
+.details:not([open]) .summary-icon {
+    width: 28px;
+    height: 17px;
+    background-image: url("../assets/downArrow.svg");
+}
+
+.summary {
+    font-size: var(--fs-subtitle-0);
+    cursor: pointer;
+    height: 52px;   /* 3.25rem */
+    border-radius: var(--border-radius-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 18.65px;
+}
+
+.details-text {
+    font-weight: 400;
+    font-size: var(--fs-paragraph);
+    padding-block: var(--fs-title);
+    padding-inline: var(--padding-inline-0);
+}
