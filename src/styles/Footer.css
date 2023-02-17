@@ -1,0 +1,13 @@
+.footer {
+    display: grid;
+    place-items: center;
+    height: var(--footer-height);
+    background-color: var(--color-black);
+}
+
+.copyright {
+    display: flex;
+    gap: .5rem;
+    color: var(--bg);
+    font-size: var(--fs-nav-links);
+}
