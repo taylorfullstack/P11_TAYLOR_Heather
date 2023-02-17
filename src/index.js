@@ -16,7 +16,7 @@ import ErrorPage from "./pages/ErrorPage.jsx";
 
 const router = createBrowserRouter([
     {
-        basename: "/P11_TAYLOR_Heather/",
+        basename: "/P11_TAYLOR_Heather",
         path: "/",
         element: <Root />,
         errorElement: <ErrorPage />,
