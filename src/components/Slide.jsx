@@ -1,4 +1,4 @@
-import '../styles/Slideshow.css'
+import '../styles/Carousel.css'
 
 export default function Slide({ src, alt, ariaLabel, isVisible}) {
     let visibility;
