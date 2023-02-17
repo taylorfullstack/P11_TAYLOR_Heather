@@ -1,0 +1,24 @@
+.header-primary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;   /* 2.5rem */
+    padding-inline: var(--padding-inline-page);
+}
+
+.header-primary > img {
+    height: var(--height-logo);
+}
+
+.header-primary > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    gap: clamp(1em, 1.5em, 2em);
+    line-height: 142.6%;
+}
+
+.header-primary > nav > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    font-size: var(--fs-nav-links);
+}
