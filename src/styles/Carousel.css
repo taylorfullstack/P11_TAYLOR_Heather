@@ -1,0 +1,49 @@
+.carousel {
+    display: grid;
+    position: relative;
+    isolation: isolate;
+    --carousel-height: 415px;
+    --carousel-width: 100%;
+    width: var(--carousel-width);
+    height: var(--carousel-height);
+}
+
+.slide {
+    width: var(--carousel-width);
+    height: var(--carousel-height);
+    border-radius: var(--border-radius-2);
+    object-fit: cover;
+}
+
+[data-slide="show"] {
+    display: block;
+}
+
+[data-slide="hide"] {
+    display: none;
+}
+
+[data-action$="slide"]{
+    position: absolute;
+    height: fit-content;
+    margin-inline: 10px;
+    width: 48px;
+    height: 80px;
+    mask-size: cover;
+    background-color: var(--color-white);
+}
+
+[data-action="next-slide"]{
+    inset: 40% 0 0 auto;
+    mask: url("../assets/next.svg");
+    mask-size: cover;
+}
+
+[data-action="previous-slide"]{
+    inset: 40% auto;
+    mask: url("../assets/previous.svg");
+}
+
+:is([data-action$="slide"]:focus, [data-action$="slide"]:hover) {
+    background-color: var(--color-primary);
+}
