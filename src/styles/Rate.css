@@ -1,0 +1,9 @@
+.rate {
+    display: flex;
+    gap: 10px;
+}
+
+.star {
+    height: var(--size-star);
+    width: var(--size-star);
+}
