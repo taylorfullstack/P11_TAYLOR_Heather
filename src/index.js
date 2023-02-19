@@ -4,7 +4,7 @@ import './styles/index.css';
 
 import reportWebVitals from './reportWebVitals';
 import {
-    createBrowserRouter,
+    createHashRouter,
     RouterProvider,
     } from "react-router-dom";
 
@@ -14,9 +14,10 @@ import LogementPage from "./pages/LogementPage.jsx";
 import About from "./pages/About.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
+        basename: "/P11_TAYLOR_Heather",
         element: <Root />,
         errorElement: <ErrorPage />,
         children: [
