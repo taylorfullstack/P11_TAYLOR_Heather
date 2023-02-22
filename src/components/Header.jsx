@@ -9,7 +9,7 @@ export default function Header() {
             <nav>
                 <ul>
                     <li>
-                        <NavLink 
+                        <NavLink className="navlink text-shadow"
                             style={({ isActive }) => {
                                 return {
                                     textDecoration: isActive ? "underline" : "none",
@@ -18,7 +18,7 @@ export default function Header() {
                         to="/">Accueil</NavLink>
                     </li>
                     <li>
-                        <NavLink
+                        <NavLink className="navlink text-shadow"
                             style={({ isActive }) => {
                                 return {
                                     textDecoration: isActive ? "underline" : "none",

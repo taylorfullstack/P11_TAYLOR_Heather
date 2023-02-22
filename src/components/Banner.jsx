@@ -8,7 +8,7 @@ export default function Banner({text, src}) {
         <section className="banner">
         <img alt="" src={src} className="banner-image"/>
         {
-            {bannerText} && <h2>{text}</h2>
+            {bannerText} && <h2 className="banner-text text-shadow">{text}</h2>
         }
         </section>
     )

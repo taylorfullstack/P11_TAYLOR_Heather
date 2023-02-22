@@ -21,7 +21,7 @@ export default function Collapse({details, summary, page}) {
 
     return (
         <details className='details collapse' open>
-            <summary className='inversed summary'>
+            <summary className='inversed summary text-shadow'>
                 <span className={summaryClass}>{summary}</span>
                 <span className='summary-icon'></span>
             </summary>
