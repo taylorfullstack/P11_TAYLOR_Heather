@@ -6,8 +6,6 @@
 }
 
 .copyright {
-    display: flex;
-    gap: .5rem;
     color: var(--bg);
     font-size: var(--fs-nav-links);
 }
