@@ -25,25 +25,47 @@
 
 [data-action$="slide"]{
     position: absolute;
-    height: fit-content;
     margin-inline: 10px;
     width: 48px;
     height: 80px;
     mask-size: cover;
-    background-color: var(--color-white);
+    background-color: var(--bg);
 }
 
 [data-action="next-slide"]{
     inset: 40% 0 0 auto;
-    mask: url("../assets/next.svg");
-    mask-size: cover;
+    mask: url("../assets/next.svg") no-repeat;
 }
 
 [data-action="previous-slide"]{
     inset: 40% auto;
-    mask: url("../assets/previous.svg");
+    mask: url("../assets/previous.svg") no-repeat;
 }
 
 :is([data-action$="slide"]:focus, [data-action$="slide"]:hover) {
     background-color: var(--color-primary);
+}
+
+@container logement (width <= 768px) {
+    .carousel {
+        --carousel-height: 255px;
+        max-height: var(--carousel-height);
+    }
+
+    [data-action$="slide"] {
+        position: absolute;
+        margin-inline: 10px;
+        width: 12px;
+        height: 20px;
+        mask-size: cover;
+        background-color: var(--color-white);
+    }
+
+    [data-action="next-slide"]{
+        inset: 50% 0 0 auto;
+    }
+    
+    [data-action="previous-slide"]{
+        inset: 50% auto;
+    }
 }
