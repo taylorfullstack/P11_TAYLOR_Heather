@@ -1,6 +1,7 @@
 
 .collapse {
     flex: 1;
+    container: collapse / inline-size;
 }
 
 .logement-details {
@@ -20,21 +21,23 @@
 }
 
 .details[open] {
-    height: 100%;
     border-radius: 0 0 var(--border-radius-1) var(--border-radius-1);
     background-color: var(--color-gray);
 }
 
+.summary-icon {
+    width: 24px;
+    height: 15px;
+    mask-size: cover;
+    background-color: var(--bg);
+}
+
 .details[open] .summary-icon {
-    width: 28px;
-    height: 17px;
-    background-image: url("../assets/upArrow.svg");
+    mask: url("../assets/upArrow.svg") no-repeat;
 }
 
 .details:not([open]) .summary-icon {
-    width: 28px;
-    height: 17px;
-    background-image: url("../assets/downArrow.svg");
+    mask: url("../assets/downArrow.svg") no-repeat;
 }
 
 .summary {
@@ -47,6 +50,7 @@
     align-items: center;
     padding-left: 20px;
     padding-right: 18.65px;
+    text-shadow: var(--text-shadow);
 }
 
 .details-text {
@@ -54,4 +58,12 @@
     font-size: var(--fs-paragraph);
     padding-block: var(--fs-title);
     padding-inline: var(--padding-inline-0);
+}
+
+@container collapse (width <= 420px) {
+    .summary-icon {
+        width: 15px;
+        height: 10px;
+        mask-size: cover;
+    }
 }
