@@ -20,6 +20,7 @@
     color: var(--text);
     font-size: var(--fs-nav-links);
     transition: 0.2s;
+    text-decoration: underline;
     --color-text-shadow: var(--bg);
     text-shadow: var(--text-shadow);
 }

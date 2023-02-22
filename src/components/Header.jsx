@@ -12,7 +12,7 @@ export default function Header() {
                         <NavLink className="navlink text-shadow"
                             style={({ isActive }) => {
                                 return {
-                                    textDecoration: isActive ? "underline" : "none",
+                                    textDecorationColor: isActive ? "var(--color-primary)" : "transparent",
                                 };
                             }}
                         to="/">Accueil</NavLink>
@@ -21,7 +21,7 @@ export default function Header() {
                         <NavLink className="navlink text-shadow"
                             style={({ isActive }) => {
                                 return {
-                                    textDecoration: isActive ? "underline" : "none",
+                                    textDecorationColor: isActive ? "var(--color-primary)" : "transparent",
                                 };
                             }}
                         to="/a_propos">A Propos</NavLink>
