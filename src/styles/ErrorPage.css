@@ -2,29 +2,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: max(20vh, 10rem) 1.5rem;
+    justify-content: space-around;
     text-align: center;
+    margin-inline: auto;
+    padding-inline: 1rem;
 }
 
-.error-page > h1 {
+.error-page h1 {
     font-weight: 700;
-    font-size: var(--fs-404);;
+    font-size: var(--fs-404);
+    margin: 8rem auto 1rem;
 }
 
-.error-page > p {
+.error-page p {
     font-size: var(--fs-title);
 }
 
-.error-page > a {
+.error-page a {
     color: var(--text);
     text-decoration: underline;
     font-size: var(--fs-subtitle-1);
+    transition: 0.3s;
+    margin: auto;
 }
 
-.error-page > a:hover {
+.error-page a:hover {
     color: var(--text);
     text-decoration: underline;
     transform: scale(1.3);
-    transition: 0.3s;
 }
