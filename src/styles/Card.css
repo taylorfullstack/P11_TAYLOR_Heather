@@ -2,26 +2,34 @@
     --card-height: clamp(255px, 340px, 340px);
     --card-width: clamp(335px, 340px, 340px);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
-    place-items: center;
-    gap: clamp(.75rem, 1.5rem, 3.125rem);
-    padding-block: 2rem;
-    padding-inline: clamp(1rem, 1.5rem, 2rem);
+    grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
+    justify-content: space-evenly;
+    gap: 3.75rem; /*60px*/
+    padding: var(--padding-inline-1);
     background-color: var(--color-gray-darker);
     border-radius: var(--border-radius-2);
 }
+
+.card-link {
+    height: var(--card-height);
+    transition: transform 0.3s;
+}
+
+.card-link:hover {
+    transform: scale(1.025);
+}
+
 .card {
     display: grid;
-    position: relative;
     height: var(--card-height);
-    width: var(--card-width);
+    position: relative;
     border-radius: var(--border-radius-1);
 }
 
 .card::after {
     content: "";
-    height: var(--card-height);
-    width: var(--card-width);
+    height: 100%;
+    width: 100%;
     border-radius: var(--border-radius-1);
     position: absolute;
     z-index: 1;
@@ -31,39 +39,29 @@
 
 .card > img {
     height: calc(var(--card-height) * .75);
-    width: var(--card-width);
+    width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
 
 .card > h2 {
+    text-shadow: var(--text-shadow);
     height: calc(var(--card-height) * .25);
-    width: var(--card-width);
+    width: 100%;
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 20px;  /* 1.25rem */
+    padding: 1.25rem;  /* 20px */
     font-size: 18px; /* 1.125rem */
     z-index: 2;
 }
 
-@container root (width < 768px) {
-    .card-section {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        padding-inline: clamp(1rem, 1.5rem, 1.5rem);
-    }
-    .card {
+@container main (width <= 768px) {
+    .card-gallery {
         --card-height: 255px;
-        --card-width: 335px;
-    }
-    .card > img {
-        height: calc(var(--card-height) * .75);
-        width: var(--card-width);
-    }
-    .card > h2 {
-        height: calc(var(--card-height) * .25);
-        width: var(--card-width);
-        padding: 20px;  /* 1.25rem */
-        font-size: 18px; /* 1.125rem */
+        --card-width: 100%;
+        padding: 0;
+        gap: 1.25rem; /*20px*/
+        background-color: transparent;
     }
 }
