@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/P11_TAYLOR_Heather/static/css/main.12a887cf.css",
-    "main.js": "/P11_TAYLOR_Heather/static/js/main.11ace898.js",
+    "main.css": "/P11_TAYLOR_Heather/static/css/main.94343396.css",
+    "main.js": "/P11_TAYLOR_Heather/static/js/main.cdc0e082.js",
     "static/js/787.0ce615c0.chunk.js": "/P11_TAYLOR_Heather/static/js/787.0ce615c0.chunk.js",
     "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg": "/P11_TAYLOR_Heather/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.161cc9194b8fa99b3ed4.jpg",
     "static/media/eric-muhr-P_XxsdVgtpQ-unsplash.jpg": "/P11_TAYLOR_Heather/static/media/eric-muhr-P_XxsdVgtpQ-unsplash.b37df1a62aeac2abe58d.jpg",
     "static/media/logo_light.svg": "/P11_TAYLOR_Heather/static/media/logo_light.2553fb29683f2c12e44904bd8503bf1b.svg",
     "static/media/logo.svg": "/P11_TAYLOR_Heather/static/media/logo.95300dc193ca301c9aaf8fa7d934cba4.svg",
     "index.html": "/P11_TAYLOR_Heather/index.html",
-    "static/media/downArrow.svg": "/P11_TAYLOR_Heather/static/media/downArrow.a929783556c38a6a68e1.svg",
     "static/media/next.svg": "/P11_TAYLOR_Heather/static/media/next.224e07798ade6bda6e25.svg",
     "static/media/previous.svg": "/P11_TAYLOR_Heather/static/media/previous.e1c831f025531aaa34d3.svg",
+    "static/media/upArrow.svg": "/P11_TAYLOR_Heather/static/media/upArrow.ef4cca2641d2adb0d9d5.svg",
     "static/media/starEmpty.svg": "/P11_TAYLOR_Heather/static/media/starEmpty.06dccca447400012db124c595a41e219.svg",
     "static/media/starFull.svg": "/P11_TAYLOR_Heather/static/media/starFull.325cf1d54d109e062e0d0468f6412f00.svg",
-    "static/media/upArrow.svg": "/P11_TAYLOR_Heather/static/media/upArrow.9d7de17f0a69480e3802.svg",
-    "main.12a887cf.css.map": "/P11_TAYLOR_Heather/static/css/main.12a887cf.css.map",
-    "main.11ace898.js.map": "/P11_TAYLOR_Heather/static/js/main.11ace898.js.map",
+    "static/media/downArrow.svg": "/P11_TAYLOR_Heather/static/media/downArrow.4df9b27d9cdfa51243ae.svg",
+    "main.94343396.css.map": "/P11_TAYLOR_Heather/static/css/main.94343396.css.map",
+    "main.cdc0e082.js.map": "/P11_TAYLOR_Heather/static/js/main.cdc0e082.js.map",
     "787.0ce615c0.chunk.js.map": "/P11_TAYLOR_Heather/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12a887cf.css",
-    "static/js/main.11ace898.js"
+    "static/css/main.94343396.css",
+    "static/js/main.cdc0e082.js"
   ]
 }
