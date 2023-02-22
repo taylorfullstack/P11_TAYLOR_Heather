@@ -3,10 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import './styles/index.css';
 
 import reportWebVitals from './reportWebVitals';
-import {
-    createHashRouter,
-    RouterProvider,
-    } from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 
 import Root from "./pages/Root.jsx";
 import Home from "./pages/Home.jsx";
