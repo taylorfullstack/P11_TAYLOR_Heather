@@ -5,13 +5,7 @@ export default function Footer() {
     return (
         <footer className="footer">
             <img alt="Kasa" src={logo}></img>
-            <div className="copyright">
-                <span>©</span>
-                <span id="copyright-date">{new Date().getFullYear()}</span>
-                <span>Kasa.</span>
-                <span>Tous droits réservés</span>
-            </div>
-            
+            <span className="copyright">© <span>{new Date().getFullYear()}</span> Kasa. Tous droits réservés</span>
         </footer>
     );
 }
