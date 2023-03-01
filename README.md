@@ -1,5 +1,7 @@
 # P11_TAYLOR_Heather
 
+[Kasa GitHub Page](https://htaylor91.github.io/P11_TAYLOR_Heather/)
+
 ## Description
 
 ![Kasa](Kasa_Banner.png)
@@ -8,23 +10,27 @@ Kasa est dans le métier de la location d’appartements entre particuliers depu
 
 ## Installation
 
-### Pour les développeurs
-
-Clonez la source localement
+### Clonez la source localement et installez les dépendances
 
 ```sh
 $ git clone https://github.com/htaylor91/P11_TAYLOR_Heather.git
 
 $ cd P11_TAYLOR_Heather
+
+$ npm install
 ```
 
 ## Utilisation
 
-Pour accéder au site sur votre système local, ouvrez le fichier "index.html" depuis la racine du projet.
+### Démarrez le serveur de développement local au port `localhost:3000`
+
+```sh
+$ npm run start
+```
 
 ## Construit avec
 
 - HTML5
-- CSS
+- CSS3
 - JavaScript
 - React
