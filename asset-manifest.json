@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/P11_TAYLOR_Heather/static/css/main.010ace95.css",
-    "main.js": "/P11_TAYLOR_Heather/static/js/main.b82f127d.js",
+    "main.js": "/P11_TAYLOR_Heather/static/js/main.8baad8bf.js",
     "static/js/787.0ce615c0.chunk.js": "/P11_TAYLOR_Heather/static/js/787.0ce615c0.chunk.js",
     "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg": "/P11_TAYLOR_Heather/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.161cc9194b8fa99b3ed4.jpg",
     "static/media/eric-muhr-P_XxsdVgtpQ-unsplash.jpg": "/P11_TAYLOR_Heather/static/media/eric-muhr-P_XxsdVgtpQ-unsplash.b37df1a62aeac2abe58d.jpg",
@@ -15,11 +15,11 @@
     "static/media/starFull.svg": "/P11_TAYLOR_Heather/static/media/starFull.325cf1d54d109e062e0d0468f6412f00.svg",
     "static/media/downArrow.svg": "/P11_TAYLOR_Heather/static/media/downArrow.4df9b27d9cdfa51243ae.svg",
     "main.010ace95.css.map": "/P11_TAYLOR_Heather/static/css/main.010ace95.css.map",
-    "main.b82f127d.js.map": "/P11_TAYLOR_Heather/static/js/main.b82f127d.js.map",
+    "main.8baad8bf.js.map": "/P11_TAYLOR_Heather/static/js/main.8baad8bf.js.map",
     "787.0ce615c0.chunk.js.map": "/P11_TAYLOR_Heather/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.010ace95.css",
-    "static/js/main.b82f127d.js"
+    "static/js/main.8baad8bf.js"
   ]
 }
