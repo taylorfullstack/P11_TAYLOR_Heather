@@ -24,16 +24,17 @@ export default function Carousel({images, title}){
 
     return (
         <section className='carousel' aria-label="logement" aria-roledescription="carousel" aria-atomic="false" aria-live="polite">
-            <Button className="button" dataAction="previous-slide" ariaLabel="previous" onClick={handlePreviousClick}/>
-            {
-                images.map((image, index) => {
-                    let slideNumber = `Image ${index + 1} of ${images.length}`
-                    const isVisible = index === currentSlideIndex ? true : false;
+        {images.length > 1 && <Button className="button" dataAction="previous-slide" ariaLabel="previous" onClick={handlePreviousClick}/>}
+        
+        {images.map((image, index) => {
+            let slideNumber = `Image ${index + 1} of ${images.length}`
+            const isVisible = index === currentSlideIndex ? true : false;
+            
+            return <Slide key={index} alt={title} src={image} isVisible={isVisible} ariaLabel={slideNumber}></Slide>
+            })
+        }
 
-                    return <Slide key={index} alt={title} src={image} isVisible={isVisible} ariaLabel={slideNumber}></Slide>
-                })
-            }
-            <Button className="button" dataAction="next-slide" ariaLabel="next" onClick={handleNextClick}/>
+        {images.length > 1 && <Button className="button" dataAction="next-slide" ariaLabel="next" onClick={handleNextClick}/>}
         </section>
     )
 }
