@@ -13,7 +13,7 @@ Kasa est dans le métier de la location d’appartements entre particuliers depu
 ### Clonez la source localement et installez les dépendances
 
 ```sh
-$ git clone https://github.com/htaylor91/P11_TAYLOR_Heather.git
+$ git clone https://github.com/taylorfullstack/P11_TAYLOR_Heather.git
 
 $ cd P11_TAYLOR_Heather
 
